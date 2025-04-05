@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 
 st.title("hello")
@@ -12,14 +12,14 @@ st.image("1.png", caption="Strawberry", use_container_width=True)
 
 
 # Sample Data
-categories = ["A", "B", "C", "D"]
-values = [10, 25, 7, 30]
+# categories = ["A", "B", "C", "D"]
+# values = [10, 25, 7, 30]
 
-# Create Bar Chart
-plt.bar(categories, values, color=['blue', 'green', 'red', 'aqua'])
+# # Create Bar Chart
+# plt.bar(categories, values, color=['blue', 'green', 'red', 'aqua'])
 
-# Display in Streamlit
-st.pyplot(plt)
+# # Display in Streamlit
+# st.pyplot(plt)
 
 
 st.title("Grid Layout in Streamlit")
